@@ -8,10 +8,15 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-    color: #D3D3D3;
+     background-color: #D3D3D3;
     line-height: 1.7;
     max-width: 100%;
     text-align: center;
+  }
+
+  main {
+      background-color: #FFFFFF;
+      padding: .25em;
   }
 
   h1,
@@ -27,11 +32,102 @@ body {
     font-size: .95em;
     margin-bottom: 1.8em;
     text-align: center;
+    color: #000000;
   }
 
 
 
+  .name {
+    text-align: left;
+  }
+
+  .main-nav {
+    width: 100%;
+
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: right;
+  }
+
+
+h2,
+h3 {
+  margin-top: 0;
+  text-align: center;
+  }
+
+a {
+  text-decoration: none;
+}
 /* Navigation */
+.name {
+  font-size: 1.25em;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.name,
+.main-nav li {
+  tex-align: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.name a,
+.main-nav a {
+  padding: 10px 15px;
+  text-align: center;
+  display: block;
+  }
+
+.main-nav a {
+  font-size:.95em;
+  color:#000000;
+  text-transform: uppercase;
+}
+
+.main-nav a:hover {
+  color: #FFC0CB;
+  }
+
+.main-nav {
+  position: relative;
+  margin-top: 100px;
+}
+
+.footer-name {
+  font-size: 1.25em;
+}
+
+.footer-name,
+.footer-nav li {
+  tex-align: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.footer-name a,
+.footer-nav a {
+  padding: 10px 15px;
+  text-align: center;
+  display: block;
+  }
+
+.footer-nav a {
+  font-size:.95em;
+  color:#000000;
+  text-transform: uppercase;
+}
+
+.footer a:hover {
+  color: #FFC0CB;
+}
+
+
+
+
 /* Layout Containers */
 .container {
   width: 70%;
@@ -44,10 +140,52 @@ body {
   }
 
   .main-footer {
-    padding: 2em;
+    padding: 2em 0;
     background:#D3D3D3;
       }
 
-/* Page Elements */
 /* Media Queries */
+@media (min-width: 768px) {
+  .wrap {
+    min-height: (100vh-89px);
+  }
+
+  .container {
+    width: 85%;
+    max-width: 1150px;
+    margin: 0,auto;
+  }
+
+  .main-nav {
+    float: right;
+  }
+
+  .main-nav li {
+  float: left;
+  }
+
+  .name {
+    float: left;
+  }
+
+  .responsive {
+    width: 300px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    }
+
+    .footer-name {
+      float: left;
+    }
+
+    .footer-nav li {
+      float: right;
+      margin-right: 12px;
+    }
+
+}
+
 /*Floats Clearfix*/
