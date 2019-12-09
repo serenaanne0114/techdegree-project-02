@@ -161,7 +161,10 @@ a {
 
 
   .main-footer {
-    padding: 2em 0;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: 30px;
     background:#D3D3D3;
       }
 
@@ -240,7 +243,7 @@ a {
     display: flex;
     flex-direction: row-reverse;
     }
-  }
+
 
   .name {
     display: inline-block;
@@ -288,6 +291,8 @@ a {
 
     .footer-nav li {
       float: right;
+      display: flex;
+      flex-direction: row-reverse;
     }
 
      .end,
