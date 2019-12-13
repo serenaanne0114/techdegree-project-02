@@ -43,10 +43,13 @@ a {
 }
 
 h2,
-h3 {
-  margin-top: 0;
+h3,
+h4 {
+  margin-top: 25px;
   text-align: center;
   }
+
+
 
 a {
   text-decoration: none;
@@ -57,17 +60,20 @@ a {
 }
 /* Navigation */
 .name {
+  float: left;
   text-align: center;
   font-size: 1.25em;
-  position: absolute;
+  margin-top: 12px;
+  margin-bottom: 12px;
   top: 0;
   left: 0;
 }
 
 .name,
 .main-nav li {
+
   tex-align: center;
-  margin-top: 6px;
+  margin-top: 25px;
   margin-bottom: 6px;
 
 }
@@ -78,8 +84,10 @@ a {
   margin-top: 6px;
   margin-bottom: 6px;
   padding: 15px 10px;
-  display: flex;
   justify-content: space-around;
+  display: flex;
+  flex-direction: row-reverse;
+
 
 }
 
@@ -106,6 +114,7 @@ a {
     margin-top: 100px;
   }
 
+
 .footer-name {
   font-size: 1.25em;
 }
@@ -120,6 +129,9 @@ a {
 .footer-nav li {
   padding: 15px, 0;
   list-style-type: none;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .footer-name a,
@@ -141,6 +153,8 @@ a {
 .footer a:hover {
   color: #FFC0CB;
 }
+
+
 
 
 
@@ -183,7 +197,7 @@ a {
   }
 
   .tagline {
-
+    margin-left: 25px;
     text-align: left;
     padding top: 10px;
     padding bottom: 25px;
@@ -192,13 +206,15 @@ a {
       }
 
 .primary,
-.secondary {
+.secondary,
+.tertiary {
   margin-top: 25px;
   margin-bottom: 25px;
   border: none;
 }
 
 .col img {
+  width: 100px;
   max-width: 1150px;
   width: 100%;
   margin-bottom: 30px;
@@ -259,15 +275,16 @@ a {
   font-size: .9em;
   padding: 0;
 }
-  .name,
-  {
-    float: left;
+
+  .name {
+    position: fixed;
     width: 240px;
     padding: 15px 0;
   }
 
   .col {
     float: left;
+    padding: 5px, 5px;
   }
 
 .primary,
@@ -275,7 +292,11 @@ a {
   width: 50%;
 }
 
-  .responsive {
+.tertiary {
+  width: 50%;
+}
+
+.responsive {
     width: 500px;
     margin: 0 auto;
     padding-left: 0px;
@@ -295,7 +316,7 @@ a {
       flex-direction: row-reverse;
     }
 
-     .end,
+     .footer,
      .footer-nav,
      .footer-nav li {
        display: inline;
@@ -303,9 +324,16 @@ a {
 
     .tagline {
     width: 53%;
-    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
     margin-right: 25px;
-    padding: 15px 0;
+    padding: 15px, 0;
+     }
+
+     .tagline,
+     .responsive {
+       padding: 10px;
      }
 
      .clearfix::after {
@@ -346,19 +374,19 @@ a {
 
     .col {
       float: left;
-      padding-left: 1em;
-      padding-right: 1em;
+      padding: 10px 10px;
   }
 
-  .primary {
-    width: 40%;
-    padding-right: 20px;
-  }
-
-  .secondary,
+  .primary,
   .tertiary {
     width: 30%;
+
   }
+
+  .secondary {
+    width: 30%;
+}
+
 
   .clearfix::after {
     content: " ";
@@ -367,5 +395,3 @@ a {
   }
 
 }
-
-/*Floats Clearfix*/
