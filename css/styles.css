@@ -61,6 +61,7 @@ a {
 /* Navigation */
 .main-header {
   text-align: center;
+  width: 100%;
 }
 
 .main-nav li {
@@ -70,9 +71,6 @@ a {
   padding: 15px;
 }
 
-.main-nav li: last-of-type {
-  margin-right: 0px;
-}
 
 .name a,
 .main-nav a {
@@ -189,7 +187,7 @@ a {
   max-width: 1150px;
   width: 100%;
   margin-bottom: 30px;
-  box-shadow: 5px, 5px, 2px, #FFFAFA;
+  box-shadow: 5px, 2px, #FFFAFA;
 
 }
 
@@ -216,18 +214,19 @@ a {
 /* Media Queries */
 @media (min-width: 768px) {
   .wrap {
-    min-height: (100vh - 188.81px);
+    min-height: calc(100vh - 89px);
   }
 
   .container {
     width: 90%;
     max-width: 1150px;
-    margin: 0, auto;
+    margin: 0;
   }
 
   .name,
   .main-nav,
   .main-nav li {
+    width: 100%;
     display: inline-block;
     text-align: center;
     margin-top: 6px;
@@ -378,7 +377,7 @@ a {
 
 
     .col {
-      float: left;
+      width: 100%;
       padding: 4px;
   }
 
