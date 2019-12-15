@@ -63,20 +63,6 @@ a {
   text-align: center;
 }
 
-
-.name {
-  font-size: 1.25em;
-}
-
-.name,
-.main-nav,
-.main-nav li {
-  display: inline-block;
-  tex-align: center;
-  margin-top: 6px;
-  margin-bottom: 6px;
-}
-
 .main-nav li {
   list-style: none;
   margin-top: 6px;
@@ -104,7 +90,6 @@ a {
 
 .main-nav {
     position: relative;
-    margin-top: 100px;
   }
 
 
@@ -143,20 +128,6 @@ a {
 .footer a:hover {
   color: #FFC0CB;
 }
-
-.footer-name,
-.footer-nav,
-.footer-nav li {
-  display: inline-block;
-  tex-align: center;
-  margin-top: 6px;
-  margin-bottom: 6px;
-}
-
-
-
-
-
 
 /* Layout Containers */
 .container {
@@ -254,6 +225,16 @@ a {
     margin: 0,auto;
   }
 
+  .name,
+  .main-nav,
+  .main-nav li {
+    display: inline-block;
+    tex-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
+
   .main-nav li {
     float: left;
     margin-left: 12px;
@@ -262,6 +243,7 @@ a {
 
   .name {
     float: left;
+    font-size: 1.25em;
 
   }
 
@@ -313,6 +295,9 @@ a {
     .footer-nav,
     .footer-nav li {
       display: inline-block;
+      tex-align: center;
+      margin-top: 6px;
+      margin-bottom: 6px;
     }
 
 
@@ -346,6 +331,16 @@ a {
     max-width: 1150px;
   }
 
+  .name,
+  .main-nav,
+  .main-nav li {
+    display: inline-block;
+    tex-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
+
   .main-nav li {
     float: left;
   }
@@ -356,6 +351,7 @@ a {
 
   .name {
     float: left;
+    font-size: 1.25em;
   }
 
    .footer-name {
@@ -372,10 +368,13 @@ a {
    }
 
    .footer-name,
-    .footer-nav,
-    .footer-nav li {
-      display: inline-block;
-    }
+   .footer-nav,
+   .footer-nav li {
+     display: inline-block;
+     tex-align: center;
+     margin-top: 6px;
+     margin-bottom: 6px;
+   }
 
 
     .col {
