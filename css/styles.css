@@ -208,7 +208,7 @@ a {
   .name,
   .main-nav,
   .main-nav li {
-    width: 100%;
+
     display: inline-block;
     text-align: center;
     margin-top: 6px;
@@ -309,6 +309,7 @@ a {
   .container {
     width: 80%;
     max-width: 1150px;
+    margin: auto;
   }
 
   .name,
