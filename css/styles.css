@@ -170,7 +170,6 @@ a {
   width: 100%;
   margin-bottom: 30px;
   box-shadow: 5px, 2px, #FFFAFA;
-
 }
 
 .col h3 {
@@ -206,9 +205,8 @@ a {
   }
 
   .name,
-  .main-nav,
-  .main-nav li {
 
+  .main-nav li {
     display: inline-block;
     text-align: center;
     margin-top: 6px;
@@ -225,6 +223,8 @@ a {
   .name {
     float: left;
     font-size: 1.25em;
+    padding: 0;
+    margin-left: 20px;
 }
 
 .main-nav a {
@@ -242,43 +242,20 @@ a {
   }
 
 .primary,
-.secondary {
-  width: 50%;
-}
-
+.secondary,
 .tertiary {
   width: 50%;
 }
 
 .responsive {
-    width: 500px;
-    margin: 0 auto;
-    padding-left: 0px;
-    padding-right: 0px;
+    width: 300px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding: 10px;
     }
 
-    .footer-name {
-      float: left;
-    }
-
-    .footer-nav {
-      float: right;
-    }
-
-    .footer-nav li {
-      float: left;
-      margin-left: 12px;
-
-    }
-
-    .footer-name,
-    .footer-nav,
-    .footer-nav li {
-      display: inline-block;
-      text-align: center;
-      margin-top: 6px;
-      margin-bottom: 6px;
-    }
 
 
     .tagline {
@@ -290,10 +267,33 @@ a {
     padding: 15px;
      }
 
-     .tagline,
-     .responsive {
+     .responsive,
+     .tagline {
        padding: 10px;
      }
+
+     .footer-name {
+           float: left;
+         }
+
+         .footer-nav {
+           float: right;
+         }
+
+         .footer-nav li {
+           float: left;
+           margin-left: 12px;
+
+         }
+
+         .footer-name,
+         .footer-nav,
+         .footer-nav li {
+           display: inline-block;
+           text-align: center;
+           margin-top: 6px;
+           margin-bottom: 6px;
+         }
 
      .clearfix::after {
        content: " ";
@@ -312,72 +312,38 @@ a {
     margin: auto;
   }
 
-  .name,
-  .main-nav,
-  .main-nav li {
-    display: inline-block;
-    text-align: center;
-    margin-top: 6px;
-    margin-bottom: 6px;
-  }
-
-
-  .main-nav li {
-    float: left;
-  }
-
-  .main-nav {
-    float: right;
-  }
-
-  .name {
-    float: left;
-    font-size: 1.25em;
-  }
-
-   .footer-name {
-     float: left;
-   }
-
-   .footer-nav {
-     float: right;
-   }
-
-   .footer-nav li {
-     float: left;
-
-   }
-
-   .footer-name,
-   .footer-nav,
-   .footer-nav li {
-     display: inline-block;
-     text-align: center;
-     margin-top: 6px;
-     margin-bottom: 6px;
-   }
-
-
-    .col {
-      width: 100%;
-      padding: 4px;
-  }
-
   .primary,
-  .tertiary {
-    width: 30%;
-
+  .secondary,
+  .tertiary
+   {
+    width: 33%;
   }
 
-  .secondary {
-    width: 30%;
-}
+  .footer-name {
+   float: left;
+   padding: 0;
+   margin-left: 20px;
+ }
+ .main-footer {
+   padding: 0;
+ }
+ .footer-nav {
+   margin: 0;
+   padding: 0;
+   height: auto;
+ }
 
-
-  .clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
-  }
+ .nav {
+   padding: 0;
+   margin: 0;
+ }
+ .footer-nav li {
+   padding: 0;
+   margin: 0;
+ }
+ .footer-nav a {
+   padding: 0;
+   margin: -10px 20px;
+ }
 
 }
