@@ -75,10 +75,11 @@ h4 {
     float: right;
     padding: 0;
     margin: 0;
+    visibility: visible;
   }
 
 .footer-nav li {
-  visibility: hidden;
+  display: none;
 }
 
 a {
