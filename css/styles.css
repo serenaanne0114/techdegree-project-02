@@ -59,6 +59,11 @@ a {
   color: #000000;
 }
 
+h2 {
+  width: auto;
+  margin: auto;
+}
+
 h2,
 h3,
 h4 {
@@ -170,10 +175,7 @@ img {
 
   }
 
-  .banner {
-    padding: 3.2em;
-    margin-bottom: 60px;
-      }
+  .
 
 .responsive {
 
@@ -212,18 +214,20 @@ img {
 .col h3 {
   text-align: center;
   width: 100%;
+  margin-top: -10px;
 }
 
 .col p {
   text-align: center;
   width: 100%;
+  margin-top: 5px;
 }
 
 .banner {
+  padding: 3.2em;
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-bottom: 25px;
+  width: auto;
+  margin: auto;
 }
 
 
@@ -232,7 +236,7 @@ img {
 /* Media Queries */
 @media (min-width: 768px) {
   .wrap {
-    min-height: calc(100vh - 89px);
+    max-height: 5em;
   }
 
   .container {
@@ -263,6 +267,7 @@ img {
   .col {
     float: left;
     padding: 4px;
+    margin: auto;
   }
 
 .primary,
@@ -280,7 +285,9 @@ img {
     padding: 10px;
     }
 
-
+    .portfolio {
+      margin: auto;
+    }
 
     .tagline {
     width: 53%;
