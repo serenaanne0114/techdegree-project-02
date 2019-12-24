@@ -78,14 +78,15 @@ h4 {
 
   .footer-name {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     float: left;
+
   }
 
   .back-to-top a {
     float: right;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 
   }
 
@@ -97,6 +98,7 @@ h4 {
 
 .footer-nav li:nth-child(1){
   display: initial;
+
 }
 
 a {
