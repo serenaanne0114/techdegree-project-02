@@ -72,7 +72,7 @@ h4 {
   }
 
   .experience li {
-   display: table;
+   list-style-position: inside;
    margin: 0 auto;
   }
 
