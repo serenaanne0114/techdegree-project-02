@@ -118,6 +118,11 @@ img {
   padding: 15px;
 }
 
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
 
 .name,
 .main-nav a {
@@ -185,7 +190,6 @@ img {
     background: #D3D3D3;
     text-align: center;
     margin-top: 5px;
-    margin-left: 25px;
     margin-bottom: 2px;
   }
 
@@ -315,7 +319,7 @@ img {
      }
 
 
-     .back-to-top {
+     .back-to-top a {
        display: none;
        opacity: 0;
        width: 75%;
@@ -325,10 +329,17 @@ img {
      .footer-name {
            float: left;
            width: 25%;
+           padding: 0;
+           margin-left: 20px;
          }
 
          .footer-nav {
            float: right;
+         }
+
+         .back-to-top {
+           display: none;
+           opacity: 0;
          }
 
          .footer-nav li {
